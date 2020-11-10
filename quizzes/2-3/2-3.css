@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	height:100;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+section{
+	height: 150px;
+	background-color: grey;
+}
+section>div{
+	height: 20px;
+	background-color: red;
+}
+
+section:not(:first-child):hover>div:nth-of-type(2){
+	background-color: green;
+}
+:{
+
+}

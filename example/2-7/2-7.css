@@ -4,12 +4,14 @@
 	padding: 0;
 }
 body{
-	/*font-family: serif;
+	/*
+	font-family: serif;
 	font-style: normal;
 	font-weight: 666;
 	font-variant: small-caps;
 	font-size: 2.4vh;
-	line-height: 3.6vh;*/
+	line-height: 3.6vh;
+	*/
 	font: normal small-caps 400 2.4vh/3.6vh serif;
 }
 article{

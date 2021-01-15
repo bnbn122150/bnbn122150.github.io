@@ -1,0 +1,86 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+	padding: 0 2vw;
+	overflow-x: hidden;
+	overflow-y: auto;
+	font: 2.4vh/3.6vh serif;}
+
+html{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background-color: lightgreen;
+}
+
+div{
+	font-size: 2.4vh;
+	padding: 1vh 2vw;
+}
+
+h1{
+	font-size: 4.8vh;
+	line-height: 7.2vh;
+	font-weight: bold;
+}
+
+h2{
+	font-size: 3.6vh;
+	line-height: 5.4vh;
+	font-style: italic;
+}
+section{
+	margin: 1vh 0;
+}
+p{
+	margin: 0.5vh 0;
+}
+
+.mysection p{
+	text-indent: 45px;	
+}
+nav{
+	background-color:DarkGreen;
+}
+
+ul li{
+	display:inline-block;
+	width:33%;
+	border:5px Yellow solid;
+	color:Yellow;
+	text-align: center;
+	
+}
+nav ul li a{
+	color:Yellow;
+}
+
+nav ul li a:hover{
+	color:Red;
+}
+	
+
+span{
+	text-align:center;
+}
+#contactinfo{
+	text-align:center;
+}
+
+#introimg{
+	display:block; 
+	margin:auto;
+}
+	
+.introa:hover{
+	color:
+}
+.introa:visited{
+	color:Black;
+}

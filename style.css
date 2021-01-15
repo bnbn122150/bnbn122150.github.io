@@ -6,7 +6,6 @@
 
 body{
 	width: 100%;
-	height:100;
 	padding: 0 2vw;
 	overflow-x: hidden;
 	overflow-y: auto;
@@ -23,7 +22,6 @@ html{
 div{
 	font-size: 2.4vh;
 	padding: 1vh 2vw;
-	height: 100px;
 }
 
 h1{
@@ -42,4 +40,47 @@ section{
 }
 p{
 	margin: 0.5vh 0;
+}
+
+.mysection p{
+	text-indent: 45px;	
+}
+nav{
+	background-color:DarkGreen;
+}
+
+ul li{
+	display:inline-block;
+	width:33%;
+	border:5px Yellow solid;
+	color:Yellow;
+	text-align: center;
+	
+}
+nav ul li a{
+	color:Yellow;
+}
+
+nav ul li a:hover{
+	color:Red;
+}
+	
+
+span{
+	text-align:center;
+}
+#contactinfo{
+	text-align:center;
+}
+
+#introimg{
+	display:block; 
+	margin:auto;
+}
+	
+.introa:hover{
+	color:
+}
+.introa:visited{
+	color:Black;
 }
